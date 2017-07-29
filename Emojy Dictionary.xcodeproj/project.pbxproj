@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		068EF5541F2D09FB001BF717 /* EmojyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068EF5531F2D09FB001BF717 /* EmojyViewController.swift */; };
 		06FBDDC31F2B78B300FA2178 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FBDDC21F2B78B300FA2178 /* AppDelegate.swift */; };
 		06FBDDC81F2B78B300FA2178 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06FBDDC61F2B78B300FA2178 /* Main.storyboard */; };
 		06FBDDCA1F2B78B300FA2178 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06FBDDC91F2B78B300FA2178 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		068EF5531F2D09FB001BF717 /* EmojyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojyViewController.swift; sourceTree = "<group>"; };
 		06FBDDBF1F2B78B300FA2178 /* Emojy Dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Emojy Dictionary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06FBDDC21F2B78B300FA2178 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		06FBDDC71F2B78B300FA2178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 				06FBDDC21F2B78B300FA2178 /* AppDelegate.swift */,
 				06FBDDD41F2BA4F200FA2178 /* EmojyTableViewController.swift */,
 				06FBDDC61F2B78B300FA2178 /* Main.storyboard */,
+				068EF5531F2D09FB001BF717 /* EmojyViewController.swift */,
 				06FBDDC91F2B78B300FA2178 /* Assets.xcassets */,
 				06FBDDCB1F2B78B300FA2178 /* LaunchScreen.storyboard */,
 				06FBDDCE1F2B78B300FA2178 /* Info.plist */,
@@ -137,6 +140,7 @@
 			files = (
 				06FBDDD51F2BA4F200FA2178 /* EmojyTableViewController.swift in Sources */,
 				06FBDDC31F2B78B300FA2178 /* AppDelegate.swift in Sources */,
+				068EF5541F2D09FB001BF717 /* EmojyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +314,7 @@
 				06FBDDD31F2B78B300FA2178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
