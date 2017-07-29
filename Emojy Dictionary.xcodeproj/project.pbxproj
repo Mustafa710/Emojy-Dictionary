@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		06FBDDC31F2B78B300FA2178 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FBDDC21F2B78B300FA2178 /* AppDelegate.swift */; };
-		06FBDDC51F2B78B300FA2178 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FBDDC41F2B78B300FA2178 /* ViewController.swift */; };
 		06FBDDC81F2B78B300FA2178 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06FBDDC61F2B78B300FA2178 /* Main.storyboard */; };
 		06FBDDCA1F2B78B300FA2178 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06FBDDC91F2B78B300FA2178 /* Assets.xcassets */; };
 		06FBDDCD1F2B78B300FA2178 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06FBDDCB1F2B78B300FA2178 /* LaunchScreen.storyboard */; };
+		06FBDDD51F2BA4F200FA2178 /* EmojyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FBDDD41F2BA4F200FA2178 /* EmojyTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		06FBDDBF1F2B78B300FA2178 /* Emojy Dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Emojy Dictionary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06FBDDC21F2B78B300FA2178 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		06FBDDC41F2B78B300FA2178 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		06FBDDC71F2B78B300FA2178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		06FBDDC91F2B78B300FA2178 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06FBDDCC1F2B78B300FA2178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06FBDDCE1F2B78B300FA2178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06FBDDD41F2BA4F200FA2178 /* EmojyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojyTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				06FBDDC21F2B78B300FA2178 /* AppDelegate.swift */,
-				06FBDDC41F2B78B300FA2178 /* ViewController.swift */,
+				06FBDDD41F2BA4F200FA2178 /* EmojyTableViewController.swift */,
 				06FBDDC61F2B78B300FA2178 /* Main.storyboard */,
 				06FBDDC91F2B78B300FA2178 /* Assets.xcassets */,
 				06FBDDCB1F2B78B300FA2178 /* LaunchScreen.storyboard */,
@@ -135,7 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06FBDDC51F2B78B300FA2178 /* ViewController.swift in Sources */,
+				06FBDDD51F2BA4F200FA2178 /* EmojyTableViewController.swift in Sources */,
 				06FBDDC31F2B78B300FA2178 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
